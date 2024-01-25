@@ -1,73 +1,73 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Responsive Coffee Shop Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="images/img/logo.png" alt="Logo de la cafetería">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Menú</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+        <section class="logo">
+            <div class="logo-image">
+                <img src="images/img/logo.png" alt="logo">
+                <nav>
+                    <ul>
+                        <li>menu1</li>
+                        <li>menu2</li>
+                        <li>menu3</li>
+                        <li>menu4</li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
     </header>
-
-    <main>
-        <section class="main-section">
-            <div class="main-content">
-                <div class="image-container">
-                    <img src="images/img/main.png" alt="Imagen 1">
-                </div>
-                <div class="text-container">
-                    <h2>Título 1</h2>
-                    <p>Descripción del contenido. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button>Ver más</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="main-section grid-container">
-            <div class="main-content flex-container">
-                <div class="half-container">
-                    <h2>Título 2</h2>
-                    <img src="images/img/p1.png" alt="Imagen 2">
-                    <p>Descripción del contenido. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="half-container">
-                    <h2>Título 3</h2>
-                    <img src="images/img/p2.png" alt="Imagen 3">
-                    <p>Descripción del contenido. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="main-section grid-container">
-            <div class="main-content flex-container">
-                <div class="half-container">
-                    <h2>Título 4</h2>
-                    <img src="images/img/p3.png" alt="Imagen 4">
-                    <p>Descripción del contenido. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="half-container">
-                    <h2>Título 5</h2>
-                    <img src="images/img/p4.png" alt="Imagen 5">
-                    <p>Descripción del contenido. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Tu Página Responsiva</p>
-    </footer>
+    <section class="main-container">
+        <img src="images/img/bg.png" alt="img-main">
+        <h1>titulo 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit assumenda quasi facilis sequi, autem cum sit sint illum eveniet dolore iusto enim earum natus deleniti temporibus voluptatum ea voluptas.</p>
+        <input type="button" value="ver mas"></input>
+    </section>
+    <section class="two-container">
+        <div class="left-container">
+            <h2>titulo 2</h2>
+            <img src="images/img/p1.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repudiandae cupiditate blanditiis temporibus cum minus, quod quos ea odit iusto officiis adipisci. Non cumque amet distinctio quas animi pariatur quos!</p>
+        </div>
+        <div class="right-container">
+            <h2>titulo3</h2>
+            <img src="images/img/p2.png" alt="">
+            <img src="images/img/p3.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quia quam optio reiciendis cum est a ab sed commodi ex dicta iste odit quae voluptas, amet eligendi quisquam quidem neque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestiae sed dolorem praesentium, natus sapiente provident explicabo earum, est ex delectus corporis perspiciatis ratione architecto, consequatur at doloribus non eveniet.</p>
+        </div>
+    </section>
+    <section class="three-container">
+        <div class="form-table-left">
+            <h3>titulo 3</h3>
+            <table>
+                <tr>
+                    <th>Título columna 1</th> <!-- Celda cabecera de la columna 1 -->
+                    <th>Título columna 2</th> <!-- Celda cabecera de la columna 2 -->
+                    <th>Título columna 3</th> <!-- Celda cabecera de la columna 3 -->
+                </tr>
+                <!-- Primera fila -->
+                <tr>
+                    <td>Celda 1x1</td> <!-- Primera celda de la primera fila -->
+                    <td>Celda 2x1</td> <!-- Segunda celda de la primera fila -->
+                    <td>Celda 3x1</td> <!-- Tercera celda de la primera fila -->
+                </tr>
+                <!-- Segunda fila -->
+                <tr>
+                    <td>Celda 1x2</td> <!-- Primera celda de la segunda fila -->
+                    <td>Celda 2x2</td> <!-- Segunda celda de la segunda fila -->
+                    <td>Celda 3x2</td> <!-- Tercera celda de la segunda fila -->
+                </tr>
+            </table>
+        </div>
+        <div class="form-table-right">
+            
+        </div>
+    </section>
 </body>
 </html>
