@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    list-style:none;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.icons-social{
+    padding: 15px 0 15px 0;
+    display: flex;
+    gap: 15px;
+}
+
+.icons{
+    font-size: 50px;
+}
+
+.whatsapp{
+    color: green;
+}
