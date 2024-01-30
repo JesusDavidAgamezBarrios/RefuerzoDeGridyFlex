@@ -1,25 +1,53 @@
-.menu{
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    background-color: black;
+}
+
+menu {
     display: flex;
     justify-content: end;
     gap: 15px;
-    list-style:none;
+    list-style: none;
+    ;
 }
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    list-style: none;
+}
+
 .menu li a {
     text-decoration: none;
     color: black;
 }
 
 
-.icons-social{
+.icons-social {
     padding: 15px 0 15px 0;
     display: flex;
     gap: 15px;
 }
 
-.icons{
+.icons {
     font-size: 50px;
 }
 
-.whatsapp{
+.whatsapp {
     color: green;
 }
